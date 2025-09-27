@@ -1,0 +1,11 @@
+-- =========================
+-- الخدمات الأساسية
+-- =========================
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local TeleportService = game:GetService("TeleportService")
+local HttpService = game:GetService("HttpService")
+local TweenService = game:GetService("TweenService")
+local StarterGui = game:GetService("StarterGui")
+local player = Players.LocalPlayer
+local PlayerGui = player:WaitForChild("PlayerGui")
